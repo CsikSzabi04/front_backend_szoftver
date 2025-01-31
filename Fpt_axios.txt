@@ -1,0 +1,22 @@
+
+ https://axios-http.com/docs/intro
+
+ * pnpm install axios
+ 
+ * const response = await axios.get("http://localhost:88/users");
+   console.log(response.data);
+
+ * axios.get(url);
+   axios.post(url, data);
+   axios.put(url, data);
+   axios.patch(url, data);
+   axios.delete(url);
+
+ * response = {
+    data: {},
+    status: 200,
+    statusText: 'OK',
+    headers: {},
+    config: {},
+    request: {}
+   }
